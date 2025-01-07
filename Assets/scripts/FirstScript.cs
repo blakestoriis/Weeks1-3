@@ -24,7 +24,7 @@ public class FirstScript : MonoBehaviour
 
         //Vector2 ScreenSizeInTheWorld.x = Camera.main.ScreenSizeInTheWorld(Vector2.zero);
 
-        //if (pos.x < -9 || pos.x > ScreenSizeInTheWorld.x)
+        if (pos.x < -9 || pos.x > 9)
         {
             speed = speed * -1;
         }
