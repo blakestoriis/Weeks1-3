@@ -4,6 +4,7 @@ using UnityEditor;
 using UnityEngine;
 
 public class FollowCircle : MonoBehaviour
+
 {
     // Start is called before the first frame update
     void Start()
