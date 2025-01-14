@@ -29,5 +29,6 @@ public class FirstScript : MonoBehaviour
             speed = speed * -1;
         }
         transform.position = pos;
+
     }
 }
